@@ -38,7 +38,7 @@ stockProductos.forEach((producto) => {
     <img src=${producto.img} class="img-producto" alt="">
     <h3 class="nombreProducto">${producto.nombre}</h3>
     <p class="precioProducto">$${producto.precio}</p>
-    <button id="agregar${producto.id}" class="btn btn-primary">Agregar al carrito <i class="fas fa-shopping-cart"></i></button>
+    <button id="agregar${producto.id}" class="btnAddToCart">Agregar al carrito</button>
     `
     contenedorProductos.appendChild(div);
 
